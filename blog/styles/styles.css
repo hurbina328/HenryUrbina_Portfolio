@@ -1,0 +1,28 @@
+body{
+    background-color: #1D3354;
+}
+#game1, #game2, #game3{
+    display:grid;
+    grid-template-areas: "left right";
+}
+img{
+    width: 50%;
+}
+#left{
+    grid-area: left;
+}
+#right{
+    grid-area: right;
+}
+#container{
+    background-color: #467599;
+}
+#game1{
+    background-color: #D64045;
+}
+#game2{
+    background-color: #3E885B;
+}
+#game3{
+    background-color: #07090F;
+}
