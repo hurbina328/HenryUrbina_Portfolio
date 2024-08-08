@@ -15,19 +15,20 @@
 
 body {
     color: #ededed;
+    background-color: #081b29;
 }
 
 .header {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
-    width: 100%;
     padding: 20px 10%;
     background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color: black;;
 }
 .navbar a {
     font-size: 18px;
@@ -152,17 +153,14 @@ body {
     font-family: "Pacifico", sans-serif;
 }
 main {
-    height: 100vh;
-    background: url('images/home.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #081b29;
     display: flex;
     align-items: center;
     padding: 0 10%;
 }
 
 .home-content {
-    max-width: 600px;
+  
     z-index: 101;
 }
 
@@ -203,7 +201,7 @@ main {
 }
 
 .home-sci {
-    position: absolute;
+    position: relative;
     bottom: 40px;
     width: 170px;
     display: flex;
@@ -267,4 +265,3 @@ main {
 main{
     padding: 100px;
 }
-
