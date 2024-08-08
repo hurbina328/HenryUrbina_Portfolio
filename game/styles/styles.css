@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Molle&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Pacifico&family=REM:wght@100;500;600;700&display=swap');
+
+* {
+    font-family: "Gochi Hand", cursive;
+    padding: 0;
+    margin: 0;
+    width: auto;
+  }
+  .logo {
+    position: relative;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Pacifico", sans-serif;
+}
+  .header {
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100;
+}
+.navbar a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+main {
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    box-sizing: border-box; /* Include padding in width calculations */
+    width: 100vw; /* Full viewport width */
+    max-width: 100vw; /* Ensure no horizontal overflow */
+}  
+  body {
+    text-align: center;
+    width: fit-content;
+    overflow-x: hidden; /* Hide scrollbars */
+    color: black;
+  }
+  footer{
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+  }
+  .container {
+    max-width: 100%;  /* Prevents the container from being too wide */
+    width: 200px;
+    height: 300px;
+    margin:0 auto;
+    display: block;
+    position:relative;
+    justify-content: center;
+  }
+  
+  .vertical {
+    background: black;
+    width: 25px;
+    height: 300px;
+    position: absolute;
+    right: 25px;
+  }
+  
+  .horizontal {
+    background: black;
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .hook {
+    width: 63px;
+    height: 50px;
+    border: solid 25px black;
+    border-bottom: none;
+    position: absolute;
+    right: 25px;
+  }
+  
+  .man {
+    width: 100px;
+    height: 175px;
+    position: absolute;
+    top: 75px;
+    left: 25px;
+  }
+  
+  .man-1 {
+    width: 40px;
+    height: 40px;
+    border: solid 10px black;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    left: 19px;
+    display: none;
+  }
+  
+  .man-2 {
+    background: black;
+    width: 10px;
+    height: 70px;
+    position: absolute;
+    top: 57px;
+    left: 45px;
+    display: none;
+  }
+  
+  .man-3 {
+    background: black;
+    width: 10px;
+    height: 60px;
+    position: absolute;
+    top: 30px;
+    left: 21px;
+    transform: rotate(-50deg);
+    display: none;
+  }
+  
+  .man-4 {
+    background: black;
+    width: 10px;
+    height: 60px;
+    position: absolute;
+    top: 30px;
+    right: 21px;
+    transform: rotate(50deg);
+    display: none;
+  }
+  
+  .man-5 {
+    background: black;
+    width: 10px;
+    height: 60px;
+    position: absolute;
+    bottom: -2px;
+    left: 25px;
+    transform: rotate(40deg);
+    display: none;
+  }
+  
+  .man-6 {
+    background: black;
+    width: 10px;
+    height: 60px;
+    position: absolute;
+    bottom: -2px;
+    right: 25px;
+    transform: rotate(-40deg);
+    display: none;
+  }
+  
+  .content {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  #word {
+    text-align: left;
+    font-size: 25px;
+  }
+  
+  .guess-container {
+    text-align: left;
+    font-size: 25px;
+    margin-top: 15px;
+  }
+  
+  #guess {
+    font-size: 25px;
+    text-align: center;
+    width: 50px;
+    border: none;
+    border: solid 2px black;
+    outline: none;
+    text-transform: capitalize;
+  }
+  
+  #misses {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  
+  .instruction {
+    text-align: left;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  
